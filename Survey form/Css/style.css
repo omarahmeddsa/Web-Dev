@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: azure;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Container{
+    
+    align-items: center;
+    background-color: rgb(5, 0, 0);
+    max-width:  50rem;
+    margin:2rem auto ;
+    padding: 0px 2rem;
+    border: 1px solid white;
+
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading{
+
+    text-align: center;
+    margin: 1rem;
+    font-size: 4rem;
+
+  
+}
+
+.field-heading{
+
+    font-size: 2rem;
+    margin: 2rem 0px 0.6rem;
+
+}
+
+.field-inputs{
+
+    display: flex;
+    flex-flow: wrap;
+    gap: 2rem;
+}
+
+.input-div{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.help-text {
+
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.1rem;
+}
+.form-control-input
+{
+    
+    font-size: 1.5rem;
+    padding: 0.4rem 0px;
+    text-indent: 0.5rem;
+    height: 3.5rem;
+    width: 100%;
+    border-radius: 7px;
+    color: #999;
+    
+
+}
+
+.form-control-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+
+  .Radio-field-input > div {
+    font-size: 1.5rem;
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.Ratings-input
+{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Rating{
+
+    display: flex;
+    gap: 30px;
+}
+
+
+
+button {
+
+
+        /* 
+        
+        display: block;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        color: wite;
+        padding: 0.5rem 0.8rem;
+        border: 1px solid white;
+        background-color: #023de3;
+        color: white;
+        margin: 0px auto;
+        box-shadow: 1px #0000;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px ;
+        border-radius: 10px;
+        
+
+  }
+
+
+
+  
