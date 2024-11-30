@@ -1,0 +1,95 @@
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+  - justify-content: flex-start => Default Value
+  - align-items: stretch => Default Value
+  - align-content: stretch => Default Value
+  For Child
+  - flex-grow: 0 => Default Value
+  - flex-shrink: 1 => Default Value
+  - order: 0 => Default Value
+*/
+
+* 
+{
+  
+    box-sizing: border-box;
+    width: 1000px;
+    height : 100%;
+}
+
+
+.Container{
+  
+
+  display: flex;
+  flex-direction: column;
+
+
+  
+  
+} 
+
+.content-body{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header
+{
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  height: 100px;
+  
+}
+
+.footer
+{
+  background-color: rgb(98, 0, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  height: 100px;
+}
+
+.sidenav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+ 
+  font-size: x-large;
+  
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  
+  font-size: x-large;
+
+  /* flex-grow: 3; */
+  flex-shrink: 2;
+
+}
+
+.ads{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  
+  font-size: x-large;
+}
