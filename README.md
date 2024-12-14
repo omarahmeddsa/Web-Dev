@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Frontend Web Project
 
 Welcome to the **Frontend Web Project** repository! 🎉 This project showcases a modern, responsive, and interactive web application built using cutting-edge frontend technologies.
